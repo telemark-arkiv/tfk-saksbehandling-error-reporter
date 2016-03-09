@@ -1,0 +1,49 @@
+{
+  "name": "tfk-saksbehandling-error-reporter",
+  "version": "1.0.0",
+  "description": "Feilrapportering for saksbehandlingsmoduler",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.3.1"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "keywords": [
+    "Tfk",
+    "Telemark fylkeskommune",
+    "Saksbehandling",
+    "Feilrapportering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tfk-saksbehandling-error-reporter.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tfk-saksbehandling-error-reporter/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.8",
+    "standard": "^6.0.8",
+    "tap": "^5.7.0"
+  },
+  "dependencies": {
+    "wreck": "^7.0.2"
+  }
+}
