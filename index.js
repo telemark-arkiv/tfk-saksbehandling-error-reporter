@@ -25,7 +25,7 @@ function reporter (callback) {
   }
 
 
-  if (files) {
+  if (files.length > 0) {
     console.log('Found files!')
     var jobId = getJobId(files)
     var options = {
