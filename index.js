@@ -14,7 +14,7 @@ function reporter (callback) {
     if (error) {
       return callback(error, null)
     } else {
-      cleanupFiles(files, function (err, result) {
+      cleanupFiles(getFiles(), function (err, result) {
         if (err) {
           return callback(err, null)
         } else {
