@@ -1,4 +1,6 @@
 # tfk-saksbehandling-error-reporter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-error-reporter.svg)](https://greenkeeper.io/)
 Errorreporting for tfk
 
 Move files to GitHub and submits issue
