@@ -39,9 +39,9 @@
     "url": "http://github.com/telemark/tfk-saksbehandling-error-reporter/issues"
   },
   "devDependencies": {
-    "coveralls": "^2.11.8",
-    "standard": "^6.0.8",
-    "tap": "^5.7.0"
+    "coveralls": "2.13.3",
+    "standard": "6.0.8",
+    "tap": "5.8.0"
   },
   "dependencies": {
     "wreck": "^7.0.2"
