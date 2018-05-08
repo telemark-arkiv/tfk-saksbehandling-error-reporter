@@ -44,6 +44,6 @@
     "tap": "5.8.0"
   },
   "dependencies": {
-    "wreck": "^7.0.2"
+    "wreck": "^14.0.0"
   }
 }
